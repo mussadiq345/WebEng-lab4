@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form Using JavaScript</title>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	    <div class="container">
+      <div class="forms-container">
+      	
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form" id="loginForm">
+          	<span id="error-alert" class="alert-danger alert-dismissible" style=" display: none; height: 49px;padding: 11px 20px 11px 20px;border: 1px solid #fff;border-radius: 29px;background-color: #edaeae; " >
+                <button onclick="closeError()" type="button" class="close" data-dismiss="alert" style="float:right;border: none;font-size: 23px;background: none;padding-left: 20px" > &times;
+                </button>
+                <strong>*please enter username or password</strong>
+              </span>
+            <h2 class="title">Login</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" id="username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="text" placeholder="Roll Number" id="rollNumber" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" id="password" />
+            </div>
+            <div class="form-check" style="margin: 0 0 0 -189px;">
+    			<input type="checkbox" class="form-check-input" id="rememberMe">
+    			<label class="form-check-label" for="exampleCheck1">Remember me</label>
+  			</div>
+  			<div>
+  				<button class="btn solid" value="loginForm" id="login-Form" type="submit">Login</button>
+          <button class="buttonload" id="loadButton">
+            <i class="fa fa-spinner fa-spin"></i>Loading
+          </button>
+  			</div>
+          </form>		
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>MANY DEVELOPERS</h3>
+            <small>(Mussadiq Furqan,Abdul Kabir,Nabeel Khan,Yasir Sheikh)</small>
+            <p>
+              Welcome to our JavaScript Validation login page
+            </p>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              laboriosam ad deleniti.
+            </p>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+<!--     background: ; -->

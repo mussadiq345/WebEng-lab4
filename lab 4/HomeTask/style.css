@@ -1,0 +1,48 @@
+#first {
+    font-family: all;
+    cursor: pointer;
+}
+
+#addTitle1 {
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.tableHeading{
+    font-weight: 700;
+}
+#panel,
+.flip {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+}
+
+.table table th {
+    padding: 10px 42px;
+}
+
+span {
+    display: block;
+    font-size: 17px;
+    color: #1f6b1f;
+    font-style: italic;
+}
+.table {
+    padding: 23px 0 0 19px !important;
+}
+.note{
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+.stuDetails{
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+.Details{
+    padding: 57px 25px 57px 35px;
+}
